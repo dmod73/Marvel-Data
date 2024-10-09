@@ -6,11 +6,28 @@
     <title>Limpieza de CSV</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<h1>Cargar Archivo CSV de Marvel</h1>
-<input type="file" id="fileInput" />
-<div id="errorSummary"></div>
-<table id="cleanedDataTable"></table>
+<body>
+<h1>Operaciones de Conjuntos</h1>
 
+    <!-- Etiqueta para el campo de carga del archivo -->
+    <label for="fileInput">Selecciona un archivo CSV:</label>
+    <input type="file" id="fileInput" accept=".csv" title="Sube un archivo CSV para realizar operaciones de conjuntos">
+    <br><br>
+
+    <!-- Tabla para mostrar los resultados de las operaciones -->
+    <h3>Resultados de las Operaciones:</h3>
+    <table id="operationResultsTable">
+        <thead>
+            <tr>
+                <th>Operación</th>
+                <th>Descripción</th>
+                <th>Resultado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Las filas se generarán dinámicamente aquí -->
+        </tbody>
+    </table>
 
     <script src="CleanData.js"></script>
 </body>

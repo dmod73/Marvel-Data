@@ -3,11 +3,32 @@ table {
     border-collapse: collapse;
     margin-bottom: 20px;
 }
-th, td {
+table, th, td {
     border: 1px solid black;
+}
+th, td {
     padding: 8px;
     text-align: left;
 }
 th {
     background-color: #f2f2f2;
+}
+/* Colores para cada categoría */
+.good-secret {
+    background-color: #d1e7dd; /* Verde claro */
+}
+.bad-brown-male {
+    background-color: #f8d7da; /* Rojo claro */
+}
+.decade-30-90 {
+    background-color: #cff4fc; /* Azul claro */
+}
+.male-female {
+    background-color: #ffeeba; /* Amarillo claro */
+}
+.deceased {
+    background-color: #d1c4e9; /* Púrpura claro */
+}
+.good-no-red-hair {
+    background-color: #c8e6c9; /* Verde claro diferente */
 }
